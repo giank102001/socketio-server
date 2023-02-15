@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('https://socketio-server-eight.vercel.app/');
 
 //DOM elements
 let message = document.getElementById('message');
