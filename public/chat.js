@@ -1,4 +1,6 @@
-const socket = io('https://socket-server-socketio.herokuapp.com/');
+var socket = io();
+//const socket = io('http://localhost:3000/'); // para localhost
+//const socket = io('https://socket-server-socketio.herokuapp.com/');
 
 //DOM elements
 let message = document.getElementById('message');
